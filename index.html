@@ -6,6 +6,52 @@
     <title>Amazon</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional styles for responsiveness */
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .nav-logo, .nav-address, .nav-search, .nav-signin, .nav-return, .nav-cart {
+                width: 100%;
+                margin-top: 10px;
+                text-align: center;
+            }
+            .search-select {
+                width: 30%;
+            }
+            .search-input {
+                width: 70%;
+            }
+            .search-icon {
+                width: 20%;
+            }
+            .panel, .foot-panel2 {
+                display: none;
+            }
+            .shop-section {
+                flex-direction: column;
+                align-items: center;
+            }
+            .box {
+                width: 90%;
+            }
+            .foot-panel2 {
+                flex-direction: column;
+                align-items: center;
+            }
+            .foot-panel3 {
+                display: none;
+            }
+            .foot-panel4 {
+                height: auto;
+            }
+            .foot-panel4 .pages {
+                padding-top: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
